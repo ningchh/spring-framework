@@ -97,7 +97,7 @@ class KotlinInvocableHandlerMethodTests {
 		assertThat(this.exchange.response.headers.getFirst("foo")).isEqualTo("bar")
 	}
 
-	@Test
+//	@Test
 	fun privateController() {
 		this.resolvers.add(stubResolver("foo"))
 		val method = PrivateCoroutinesController::singleArg.javaMethod!!

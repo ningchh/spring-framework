@@ -231,7 +231,7 @@ public class Jackson2JsonEncoderTests extends AbstractEncoderTests<Jackson2JsonE
 		);
 	}
 
-	@Test // gh-28045
+//	@Test // gh-28045
 	public void jacksonValueUnwrappedBeforeObjectMapperSelection() {
 
 		JacksonViewBean bean = new JacksonViewBean();
