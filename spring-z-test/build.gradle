@@ -19,6 +19,9 @@ dependencies {
 //    api(project(":spring-web"))
 //    api(project(":spring-instrument"))
 
+    api group: 'org.aspectj', name: 'aspectjrt', version: '1.9.5'
+    api group: 'org.aspectj', name: 'aspectjweaver', version: '1.9.5'
+
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }

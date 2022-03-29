@@ -7,6 +7,8 @@ public class UserService {
 
 	public void Test(){
 		System.out.println("测试一下拉");
+
+//		throw new RuntimeException("exception--------------");
 	}
 
 }
